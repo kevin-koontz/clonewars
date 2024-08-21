@@ -1,0 +1,21 @@
+:root {
+  --magic-card-distance: 5rem;
+}
+
+.magic-containment {
+  position: relative;
+  /* this creates a containing block, for the magic card, INVISIBLE BARRIER */
+}
+
+.magic-row {
+  /* bottom: var(--magic-card-distance); */
+  position: absolute;
+  top: -10px;
+  height: var(--magic-card-distance);
+  background-color: var(--bs-success);
+  width: 100%;
+}
+
+.magic-offset {
+  padding-top: 10rem;
+}
